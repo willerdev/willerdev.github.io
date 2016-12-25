@@ -1,0 +1,21 @@
+.ie7no.overlay { background: #000; opacity:0.8; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); height: 100%; left: 0; position: fixed; top: 0;  width: 100%; z-index: 100; 
+display: none; }
+.lightboxnoie7{ background: #fff; color: #000; display: none; font-family: myriad-pro-n4, myriad-pro, sans-serif; left: 50%; margin: -231px 0 0 -330px; padding: 20px; position: absolute; top: 50%; width: 690px; z-index: 8889; }
+.lightboxnoie7 p,.lightboxnoie7 ul, .lightboxnoie7 ul li{ padding: 0; margin: 0; list-style: none; }
+.lightboxnoie7 .clear{ clear: both; height: 0px; position: static; width: 100%; }
+.lightboxnoie7 .imgcont{ height: 300px; margin-bottom: 20px; }
+.lightboxnoie7 ul li{ float: left; position: relative; }
+.lightboxnoie7 ul .push{ margin-right: 30px; }
+.lightboxnoie7 ul li img{ margin: -4px; display: block; }
+.lightboxnoie7 ul li .browsername{ color: #000; text-decoration: none; bottom: 0px; font-family: sans-serif; font-size: 21px; height: 50px; left: 0px; position: absolute; text-align: center; width: 200px; display: block; }
+.lightboxnoie7 ul li .browsername span{ display: block; padding: 8px 3px 3px 3px; }
+.lightboxnoie7 .title{ font-family: sans-serif; font-size: 28px; line-height: 24px; }
+.lightboxnoie7 .title span{ color: #37b34a; }
+.lightboxnoie7 .toptext{ font-size: 14px; margin: 10px 0 20px 0; line-height: 16px; }
+.lightboxnoie7 .toptext strong, .lightboxnoie7 .bottext strong { text-transform: uppercase; }
+.lightboxnoie7 .bottext{ font-size: 12px; }
+a.enalbescript, a.seperator-product:visited { color: #37B34A; }
+.enalbescript:hover { color: #000; text-decoration: underline; }
+.seperator-product { margin-left: 15px; }
+.tabsinside.no-scroll-bar { overflow-y: hidden !important; }
+a img { border: none; }

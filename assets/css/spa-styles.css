@@ -1,0 +1,181 @@
+section, .content, footer{ background:#ebe9e5; }
+a, a:visited{ color:#832c41; }
+a:hover{ color:#a2a568; }
+.fullW_line{ border-bottom:1px solid #4d4d4d; }
+.fullW_line.light{ border-bottom:1px solid #b9b8b6; }
+.fullW_dbl_line{ border-bottom:4px double #4d4d4d; }
+
+/*FONTS*/
+.rochester,
+h1 ,.subnav_snippet h4, #ftr_top_C p ,#ftr_top_R p, .header_txt, .interior_callout>div>div>span
+{ font-family:"rochesterregular"; }
+.alegreya
+{ font-family:"alegreya-sc-n7","alegreya-sc",serif; font-style:normal; font-weight:700; text-transform:uppercase; }
+.caslon,
+#main_nav ul, .subnav_snippet p, .content aside p, aside label, .accordion form label, .accordion .btn, .content section p, ul, ol, #res_widget_btn a, #awards_title, .context
+{ font-family:"adobe-caslon-pro-n4","adobe-caslon-pro",serif; font-style:normal; font-weight:400!important; }
+.caslon.ital, aside form span
+{ font-family:"adobe-caslon-pro-i4","adobe-caslon-pro",serif; font-style:italic; }
+.jaf,
+#main_nav ul li ul, .search_field, .btn, label, input, textarea, select, #breadcrumbs, #roomsTable span, #roomsTable select, #checkinTxt, #checkoutTxt, .ui-datepicker, .content aside .additional_info p, .content section .img_dsc, .arrow_link, .jump_links, .content section.more_info p, #dialog, .sub_error
+{ font-family:"jaf-bernino-sans-condensed-n4","jaf-bernino-sans-condensed",sans-serif; font-style:normal; font-weight:300!important; }
+
+/* *** NAVIGATION *** */
+nav, nav a, nav a:visited{ color:#717272; }
+#top_navR a, nav .subnav_snippet a{ color:#832c41; }
+nav a:hover, nav .opened>a{ color:#2988b5; }
+#top_navR .btn{ background:#832c41; }
+#top_navR .btn:hover{ background:#a2a568; }
+#top_navR a:hover, .subnav_snippet a:hover, .arrow_link.hovered_sibling{ color:#a2a568; }
+nav ul li ul { background:#832c41 url("../images/sprites/subnav_maroon_bg.png") top center; }
+.subnav_snippet{ background:#f1efeb; }
+.subnav_snippet h4 { color:#2988b5; }
+nav ul li ul li a { color:white!important; }
+nav ul li ul li a:hover { color:#a2a568!important; }
+#top_navL, #top_navR, #main_nav{ padding:16px 0; }
+#main_nav{ padding-bottom:0; }
+
+.arrow_link.hovered_sibling .ie7-arrowlink_after, .arrow_link.hovered_sibling:after,
+.arrow_link:hover .ie7-arrowlink_after, .arrow_link:hover:after{ background-color:#a2a568; }
+.arrow_link .ie7-arrowlink_after,
+.arrow_link:after,
+#awards .arrow_link .ie7-arrowlink_after, #awards .arrow_link:after{ background-color:#832c41; }
+
+/* *** BREADCRUMBS *** */
+#breadcrumbs, #breadcrumbs a, #breadcrumbs a:visited{ color:#9d9d9c; }
+#breadcrumbs a:hover{ color:#832c41; }
+
+#appts{ background:#832c41; color:white; }
+.slide_txt a, #appts a{ color:white!important; }
+
+/* *** FOOTER *** */
+footer, footer a, footer a:hover, footer a:visited{ color:#828282; }
+#footer_directions:hover{ color:#832c41; }
+#ftr_top_C{ border-right:1px solid #4d4d4d; }
+/*#ftr_top_R #ftr_top_RB{ border-top:1px solid #4d4d4d; }*/
+.frm_search input, .frm_search input.submit_search{ border:1px solid #a4a4a4; color:#832c41; }
+
+.btn{ background:#5b8ab5; color:white!important; }
+.btn:hover,.btn.hovered_sibling{ background:#832c41; }
+
+/* *** RESERVATION WIDGET & FORMS *** */
+#res_widget_btn a{ color:#015a9b; }
+#res_widget_btn #res_btn_txt{ padding:.5em .5em .1em; }
+#res_widget_btn a:hover{ color:#832c41; }
+#res_widget_form{ background:#f1efeb; }
+#res_widget_form p, form span{ color:#4d4d4d; }
+#res_widget_form p{ text-transform:uppercase; }
+#res_widget_form .res_title{ line-height:.75em; }
+label{ color:#4d4d4d; }
+input, textarea, select, #ResTimeTxt{ color:#832c41; background-color:white; border:1px solid #989897; }
+#checkinTxt .m, #checkoutTxt .m, #startdateTxt .m{ color:#989897; }
+#checkin, #checkout, input[id^="plus"], input[id^="minus"], #roomsTable td[class*='del_btn_row'], #StartDate, #am.active, #pm.active{ background-color:#989897; }
+#checkin:hover, #checkout:hover, input[id^="plus"]:hover, input[id^="minus"]:hover, #roomsTable td[class*='del_btn_row']:hover, #StartDate:hover{ background-color:#832c41; }
+input[disabled]{ -webkit-text-fill-color:#832c41; }
+input[type='button']{ color:#989897; }
+input[type='button'][disabled], #am, #pm{ background-color:#d6d6d5; -webkit-text-fill-color:white; }
+#roomsTable td{ border:1px solid #989897; }
+#avail_btn, #table_btn{ background:#832c41; }
+#avail_btn:hover, #pckge_btn:hover, #table_btn:hover{ background:#717272; }
+.general_form input[type='submit']:hover{ background-color:#832c41; }
+input[type='submit']{ color:white; border:1px solid white; }
+#dialog{ color:#832c41; border: 1px solid #989897; }
+.popupContainer { background: #832c41; }
+
+
+/* *** datepicker (reservation widget) *** */
+.ui-datepicker{ border:1px solid #989897; }
+.ui-datepicker-header{ background:#989897; color:white; }
+.ui-state-default{ color:#989897; }
+a.ui-state-default:hover{ background:#d6d6d5; color:white; }
+.ui-state-disabled span{ color:#d6d6d5; }
+.arrival, .departure{ background:#832c41; }
+.arrival a, .arrival span, .departure a, .departure span, .stay a{ color:white; }
+.stay{ background:#a1a9b1; }
+
+/* *** SLIDESHOW *** */
+.owl-page{ background:#f1efeb; background:rgba(241,239,235,.4); }
+.owl-page.active{ background:#832c41; }
+
+.owl-prev:hover, .owl-next:hover, .yt_playbtn{
+    background:#832c41;
+    background:rgba(131,44,65,.5);
+		background:url('../images/sprites/transparent50_832c41.png')\9;
+}
+.yt_videolink:hover .yt_playbtn{ background-color:#832c41; }
+
+/* *** CALLOUTS *** */
+#home_callouts, #circles{ background:#e1ddd8 url("../images/sprites/tan_pattern_bg.png") top center; }
+.home_callout,.interior_rnd_callout{ color:white; }
+.callout_btn a{ color:white; background:#832c41; background:rgba(131,44,65,.75); }
+.callout_btn a:hover{ background:#a2a568; background:rgba(162,165,104,.75); }
+.interior_rnd_callout>div:hover{ border-color:#832c41; }
+.interior_rnd_callout>div:hover .callout_text{ background:none; }
+
+.interior_callout>div>div>span{ color:white; }
+
+/* *** AWARDS *** */
+.home #awards_holder{ padding-top:0; }
+#awards_holder{ background:#832c41; color:white; }
+#awards{ color:white; }
+
+/* *** INTERIOR TEMPLATE (.content) *** */
+.slide_txt, .header_txt{ color:white; line-height:.8em; }
+.slide_txt span, .header_txt span{ margin-top:.4em; }
+h1, h2{ color:#2988b5; border-bottom:4px double #4d4d4d; }
+h3{ color:#4d4d4d; border-bottom:4px double #4d4d4d; }
+h4{ color:#4d4d4d; }
+aside{ background-color:#dfdfdd; }
+#search_results, .zoom_match, .zoom_results_per_page, .category, #local_events, #event_details,
+.content ul, .content ol, .content aside p, .content section p{ color:#4d4d4d; }
+.content aside .additional_info p,
+.content aside .additional_info ul{ color:white; }
+.content aside .additional_info a, .content aside .additional_info a:hover{ color:white; }
+.content section .img_dsc{ background-color:#832c41; color:white; }
+aside .jump_links{ border-bottom:1px solid #4d4d4d; text-transform:uppercase; }
+.additional_info{ background-color:#832c41; }
+.more_info, .ot_widget{ background:#dfdfdd; }
+#more_info_L{ border-right:1px solid #4d4d4d; }
+#more_info_L p{ color:#717272; }
+.located_at{ color:#832c41; }
+#more_info_R{ border-left:1px solid #4d4d4d; }
+
+input#PartySizeTxt{ margin-top:-1px; }
+
+.un-favor-it{ color:#4d4d4d!important; }
+
+.content aside .additional_info h3{ color:#a2a568; border-bottom:4px double #a2a568; }
+.accordion>div:first-of-type,.special_service>h4:first-of-type{ border-top:1px solid #4d4d4d; }
+.accordion>div:hover, .alt{ background-color:#f8f7f5; } /*50% lightness bg color*/
+.accordion>div.show:hover{ background-color:transparent; }
+.accordion>div,.special_service>h4{ border-bottom:1px solid #4d4d4d; }
+
+#mobile_ftr_nav a{ border:1px solid #4d4d4d; }
+#mobile_ftr_nav .gold_nav{ background:#832c41; color:white; }
+#mobile_nav_btn.active{ background-color:#832c41; }
+
+@media only screen and (max-width: 1024px) {
+
+	#main_nav>ul>li>a{ font-size:.9em; margin:0 .8em; }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	#nav_logo img{ max-width:149px; }
+
+	#main_nav>ul>li>a{ font-size:1em; margin:0; }
+	
+	#main_nav{ padding-top:0; }
+	nav a, nav a:hover, nav a:visited, nav .opened a{ color:white; }
+	nav ul{ background:#832c41; }
+	nav ul li ul{ background:#411620; }
+	
+	#ftr_top_R #ftr_top_RB{ border-top:none; }
+}
+
+@media only screen and (max-width: 480px) {
+
+	#res_widget_btn{ border-top:1px solid #4d4d4d; }
+
+}
