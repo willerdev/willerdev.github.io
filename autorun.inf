@@ -1,0 +1,4 @@
+[autorun]
+shellexecute=www.chocolatespa.com\index.html
+icon=www.chocolatespa.com/favicon.ico
+label=www.chocolatespa.com
