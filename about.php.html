@@ -16,13 +16,13 @@
  <!-- InstanceEndEditable -->
  <link rel="stylesheet" href="./assets/css/style.css" />
  <link rel="stylesheet" href="./assets/css/spa-styles.css" />
-  
+
  <meta charset="utf-8" />
  <meta http-equiv="cleartype" content="on" />
  <meta name="HandheldFriendly" content="True" />
  <meta name="MobileOptimized" content="320" />
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
- 
+
  <meta name="copyright" content="Copyright 2014 Hershey Entertainment & Resorts http://www.hersheypa.com" />
  <meta name="language" content="English" />
  <meta name="revisit-after" content="7 days" />
@@ -107,11 +107,7 @@ Date Downloaded: 12/25/2016 5:41:56 AM !-->
 </head>
  <body><div style="z-index: 9999; position: fixed; width: 100%; border: 0px; padding: 5px; margin: 0px; background-color: transparent;  font-size: 12pt; font-family: sans-serif;" id="web2disk_nag" onclick="javascript: document.getElementById('web2disk_nag').style.display = 'none';">
 		<div style="color: #000000; background-color:#F1F1F1; margin-left: auto; margin-right: auto; border-width: 2px; border-style: solid; width: 550px; ">
-			<div style="width: 100%; text-align: center; font-weight: bold; border: 0px; margin: 0px; padding: 0px">Hey, where did my words go? (Click to hide)</div>
-			<p>In the trial version of Web2Disk every fifth word is blanked out. 
-			To copy this site with all the words, please upgrade to the full version and copy this website again.</p>
 			<div style="width: 100%; text-align: center; font-weight: bold; border: 0px; margin: 0px; padding: 0px">
-				<a href="http://www.inspyder.com/products/Web2Disk/">Inspyder Web2Disk: The Website Downloader</a>
 			</div>
 		</div>
 	</div>
@@ -121,7 +117,7 @@ Date Downloaded: 12/25/2016 5:41:56 AM !-->
  <script type="text/javascript" src="./assets/js/vendor/jquery.hoverIntent.minified.js"></script>
  <script>
 $(function(){
-	
+
 	$( "body" ).append('<div id=\"blackout\"></div>');
 
 
@@ -182,7 +178,7 @@ $(function(){
 		$( "#blackout" ).css('display','block');
 		if( !$(this).hasClass('active') && !$('#main_nav .opened').length ){  $( "#blackout" ).css('display','none'); }
 	});
-	
+
 	$( "a.sibling_link" ).hover(
 		function() {
 			$(this).siblings("a").addClass('hovered_sibling');
@@ -367,7 +363,7 @@ $(function(){
              <input type="submit" id="email-next" value="Sign Up For Email" />
              <input name="pre_form" type="hidden" id="pre_form" value="true" />
              <input name="email_popup" type="hidden" id="email_popup" value="1" />
-         </form> 
+         </form>
          </div>
      </div>
  </div>
@@ -398,7 +394,7 @@ $( window ).load(function() {
      <span data-picture="" data-alt="About The Spa At The Hotel Hershey">
 			 <span data-src="/assets/images/about/hdr-mobile-aboutus.jpg"></span>
 			 <span data-src="/assets/images/about/hdr-tablet-aboutus.jpg" data-media="(min-width: 481px)"></span>
-			 <span data-src="/assets/images/about/hdr-desktop-aboutus.jpg" data-media="(min-width: 769px)"></span> 
+			 <span data-src="/assets/images/about/hdr-desktop-aboutus.jpg" data-media="(min-width: 769px)"></span>
 			 <!--[if (lt IE 9) & (!IEMobile)]><span data-src="/assets/images/about/hdr-desktop-aboutus.jpg"></span><![endif]-->
 			 <noscript>
 				 <img src="./assets/images/about/hdr-desktop-aboutus.jpg" alt="About The Spa At The Hotel Hershey" />
@@ -412,7 +408,7 @@ $( window ).load(function() {
  <div id="breadcrumbs" class="content_contain">
  <span id="appts"><img src="./assets/images/sprites/phone.png" /><strong>Appointments: </strong>  <span id="NavisBreadcrumb">844-330-1797 </span><script type="text/javascript">SetElementToNavisNCPhoneNumber("NavisBreadcrumb");</script></span>
  <p class="jaf">
- <a href="./index.html" title="Home"><span id="home_icon"></span></a>   <span class="breadcrumb_seperator">&raquo; </span>  
+ <a href="./index.html" title="Home"><span id="home_icon"></span></a>   <span class="breadcrumb_seperator">&raquo; </span>
  <script type="text/javascript">
 	var title = new String(document.title); title = title.replace("The Spa At The Hotel Hershey","").replace(" - ",""); document.write(title);
 </script>
@@ -441,11 +437,11 @@ $( window ).load(function() {
 				 <div align="left"><a href="./assets/pdf/about-us/awards.pdf" target="_blank" class="btn">View our Accolades </a></div>
 			 </span>
 		 </aside>
-        
+
          <!-- Panos -->
 		 <section class="w65">
              <h2>Virtual Tours </h2>
-            
+
  <script>
 var descriptions = [
 	["Whisper Room","../www.spherovision.net/html5/US126LS/J87/whisperroom_b.html"],
@@ -459,20 +455,20 @@ var descriptions = [
 	$(function() {
 		var name;
 		var panoId = 0;
-		
-		
+
+
 		window.defaultPano=-1;
 		// Build Property Pano List
 		window.init = function(){
 			for(i=0;i<descriptions.length;i++){
 				if(defaultPano<0){ defaultPano=i; }
 				name = String(descriptions[i][0]).toLowerCase().replace(/\W/g, "-");
-				
+
 				$(".pano-grid").append('<div class="split3rd" id="'+i+'"><a id="'+name+'" href="'+String(descriptions[i][1])+'"><img src="/assets/images/pano-thumbs/'+name+'.jpg" class="pano-thumb" /><span>'+descriptions[i][0]+'</span></a></div>');
-				if( String("").replace(/-/g, "") == (String(descriptions[i][0])+"  "+String(descriptions[i][1])) ){ defaultPano=i; };		
+				if( String("").replace(/-/g, "") == (String(descriptions[i][0])+"  "+String(descriptions[i][1])) ){ defaultPano=i; };
 			}
-			
-			
+
+
 			// Change corresponding pano description
 			function changeDesc(id){
 				$('.img_dsc').html(descriptions[id][0]);
@@ -480,16 +476,16 @@ var descriptions = [
 				$("#" + id).addClass("active");
 				panoId = id;
 			}
-			
+
 			if ($(window).width() > 600){
 				$("#"+defaultPano).addClass("active");
 				$('#pano-holder').html('<iframe src="'+String(descriptions[defaultPano][1])+'" id="pano" name="pano" width="100%" scrolling="no" frameborder="0"></iframe>');
-				
-				$('.pano-grid a').click( function(event){ 
+
+				$('.pano-grid a').click( function(event){
 					event.preventDefault();
 					$('#pano').attr( 'src', $(this).attr('href'));
 					changeDesc($(this).parent().attr('id'));
-					
+
 					$('html, body').animate({ scrollTop:$("#pano").offset().top },"slow");
 				});
 			}
@@ -499,12 +495,12 @@ var descriptions = [
 					return false;
 				});
 			}
-			
-			
+
+
 			// Pano slideshow functions
 			$('.owl-prev, .owl-next').click(function(e) {
 				e.preventDefault();
-				
+
 				if ($(this).attr("class").split("-")[1] == "prev"){
 					panoId--;
 					if (panoId < 0){ panoId = descriptions.length - 1; }
@@ -513,13 +509,13 @@ var descriptions = [
 					panoId++;
 					if (panoId > descriptions.length - 1 ){ panoId = 0; }
 				}
-				
+
 				$('#pano').attr( 'src', descriptions[panoId][1]);
 				changeDesc(panoId);
 			});
-				
+
 			changeDesc(0);
-			
+
 		}
 		init();
 
@@ -530,13 +526,13 @@ var descriptions = [
  <div class="pano-holder">
      <a class="owl-prev" href="#"></a>
      <a class="owl-next" href="#"></a>
-    
+
      <div class="panos slideshow" id="pano-holder"></div>
-     <p class="img_dsc" />        
+     <p class="img_dsc" />
  </div>
 
  <div class="pano-grid clearfix"></div>         </section>
-        
+
          <!-- Treatment List -->
          <section class="w35 new_row">
 			 <h2 class="altH2"><a id="treatments"></a>Treatments </h2>
@@ -550,12 +546,12 @@ var descriptions = [
 					 <li class="cat6"><span class="icon"></span>  <a href="./salon/hair-make-up.php.html" class="arrow_link">Salon Services </a></li>
 				 </ol>
            </section>
-          
+
            <!-- Collections List -->
            <section class="w65">
 			 <h2><a id="collections"></a>Signature Collections </h2>
 			 <p>Our signature collections are ________ by the rich tradition  of  <em>The Spa At The _____ Hershey </em>. Become a part __ our story as you __________ the luxury of each ___. </p>
-		
+
 			 <div class="accordion">
                <div class="hide">
                      <h4>Everything Chocolate </h4>
@@ -587,16 +583,16 @@ var descriptions = [
                  </div>
              </div>
          </section>
-        
+
          <!-- Hotel Information
 		<section class="w65">
 			<h2>About The Hotel Hershey</h2>
 			<p>Situated atop the town of Hershey, <em>The Hotel Hershey</em> is Milton Hershey's ultimate expression of grandeur. Awaken your senses and experience the finest in elegance and service.</p>
 			<div align="left"><a href="http://www.thehotelhershey.com/" target="_blank" class="arrow_link">Learn more about The Hotel Hershey</a></div>
         </section> -->
-		
+
 	 </div>
-    
+
      <!-- Signature Collection Callouts -->
      <section class="w100" id="circles">
          <div class="content_contain clearfix">
@@ -609,7 +605,7 @@ var descriptions = [
                  <p>Chocolate-infused treatments in honor __ our rich history. </p>
                  <a href="./treatments/signature/chocolate.php.html" class="arrow_link">View Chocolate Treatments </a>
              </div>
-            
+
              <div class="interior_rnd_callout">
                  <a href="./treatments/signature/rose.php.html" class="callout_text sibling_link">
                      <div class="black_bg"><span class="callout_line1 vert_center jaf">Rose <br />Garden </span></div>
@@ -619,7 +615,7 @@ var descriptions = [
                  <p>Rich in antioxidants, rose ___ encourages radiant, healthy skin. </p>
                  <a href="./treatments/signature/rose.php.html" class="arrow_link">View Rose Treatments </a>
              </div>
-            
+
              <div class="interior_rnd_callout">
                  <a href="./treatments/signature/cuban.php.html" class="callout_text sibling_link">
                      <div class="black_bg"><span class="callout_line1 vert_center jaf">Cuban <br />Experience </span></div>
@@ -629,7 +625,7 @@ var descriptions = [
                  <p>Breathe in the exotic ______ of  lime, coconut ___ sugar treatments. </p>
                  <a href="./treatments/signature/cuban.php.html" class="arrow_link">View Cuban Treatments </a>
              </div>
-            
+
              <div id="interior_rnd_callout4" class="interior_rnd_callout">
                  <a href="./treatments/signature/country.php.html" class="callout_text sibling_link">
                      <div class="black_bg"><span class="callout_line1 vert_center jaf">Country <br />Abundance </span></div>
@@ -691,7 +687,7 @@ $(function(){
 			_e = setInterval( function(){ loop_fade(); } , $delay_time );
 		}
 	);
-	
+
 });
 </script>
 	 <footer class="jaf">
@@ -711,7 +707,7 @@ $(function(){
 			 <form action="/search/index.php" class="frm_search clearfix" method="get" />
 				 <input type="text" name="zoom_query" id="search_query" placeholder="SEARCH" class="search_field" />
 				 <input type="submit" alt="Search" title="Search" class="submit_search" />
-			 </form> 
+			 </form>
 		 </div>
 
 	     <div id="ftr_top_C">  <a href="http://www.experienceispa.com/" target="_blank"><img src="./assets/images/ispa.png" width="32" height="56" /></a>
