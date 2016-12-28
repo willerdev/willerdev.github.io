@@ -92,7 +92,7 @@ var HERSHEY = HERSHEY || {};
 			var urlToTrack = this.config.url || window.location.pathname + window.location.search;
 			this.push('_trackPageview', urlToTrack + (this.config.urlSuffix || ''));
 		},
-		
+
 		trackVirtualPageview: function(virtualURL) {
 			this.push('_trackPageview', virtualURL);
 		},
@@ -136,7 +136,7 @@ var HERSHEY = HERSHEY || {};
 			}
 		},
 
-		
+
 		// Binding methods
 		bindImmediateEvents: function() {
 			this.delegate('click', 'a[data-track-event], button[data-track-event]', this.track.bind(this, 'a'));

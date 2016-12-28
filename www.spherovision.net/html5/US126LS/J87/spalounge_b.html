@@ -1,12 +1,12 @@
 <!DOCTYPE html>
  <html>
 	 <head>
-		 
+
 		 <title></title>
 		 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 		 <meta name="apple-mobile-web-app-capable" content="yes" />
 		 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		
+
 		 <script type="text/javascript" src="swfobject.js">
 		</script>
 		 <script type="text/javascript">
@@ -20,9 +20,9 @@
 							case 208:cheight=268; break; // landscape
 						 	case 260:cheight=320; break; // landscape, fullscreen
 						 	case 336:cheight=396; break; // portrait, in call status bar
-							case 356:cheight=416; break; // portrait 
+							case 356:cheight=416; break; // portrait
 							case 424:cheight=484; break; // portrait iPhone5, in call status bar
-							case 444:cheight=504; break; // portrait iPhone5 
+							case 444:cheight=504; break; // portrait iPhone5
 						 	default:
 								cheight=window.innerHeight;
 						}
@@ -32,7 +32,7 @@
 						}
 					}
 				}
-				
+
 				document.getElementsByTagName("body")[0].style.marginTop="1px";
 				window.scrollTo(0, 1);
 			}
@@ -43,7 +43,7 @@
 		 <style type="text/css" title="Default">
 			body, div, h1, h2, h3, span, p {
 				font-family: Verdana,Arial,Helvetica,sans-serif;
-				color: #000000; 
+				color: #000000;
 			}
 			/* fullscreen */
 			html {
@@ -56,13 +56,13 @@
 			}
 			body {
 			  font-size: 10pt;
-			  background : #ffffff; 
+			  background : #ffffff;
 			}
 			table,tr,td {
 				font-size: 10pt;
 				border-color : #777777;
-				background : #dddddd; 
-				color: #000000; 
+				background : #dddddd;
+				color: #000000;
 				border-style : solid;
 				border-width : 2px;
 				padding: 5px;
@@ -74,10 +74,10 @@
 			h2 {
 				font-size: 14pt;
 			}
-			.warning { 
+			.warning {
 				font-weight: bold;
-			} 
-			/* fix for scroll bars on webkit & Mac OS X Lion */ 
+			}
+			/* fix for scroll bars on webkit & Mac OS X Lion */
 			::-webkit-scrollbar {
 				background-color: rgba(0,0,0,0.5);
 				width: 0.75em;
@@ -85,18 +85,14 @@
 			::-webkit-scrollbar-thumb {
     			background-color:  rgba(255,255,255,0.5);
 			}
-		</style>	
+		</style>
 	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Original URL: http://www.spherovision.net/html5/US126LS/J87/spalounge_b.html
 Date Downloaded: 12/25/2016 5:43:24 AM !-->
 </head>
 	 <body><div style="z-index: 9999; position: fixed; width: 100%; border: 0px; padding: 5px; margin: 0px; background-color: transparent;  font-size: 12pt; font-family: sans-serif;" id="web2disk_nag" onclick="javascript: document.getElementById('web2disk_nag').style.display = 'none';">
 		<div style="color: #000000; background-color:#F1F1F1; margin-left: auto; margin-right: auto; border-width: 2px; border-style: solid; width: 550px; ">
-			<div style="width: 100%; text-align: center; font-weight: bold; border: 0px; margin: 0px; padding: 0px">Hey, where did my words go? (Click to hide)</div>
-			<p>In the trial version of Web2Disk every fifth word is blanked out. 
-			To copy this site with all the words, please upgrade to the full version and copy this website again.</p>
 			<div style="width: 100%; text-align: center; font-weight: bold; border: 0px; margin: 0px; padding: 0px">
-				<a href="http://www.inspyder.com/products/Web2Disk/">Inspyder Web2Disk: The Website Downloader</a>
 			</div>
 		</div>
 	</div>
@@ -108,7 +104,7 @@ Date Downloaded: 12/25/2016 5:43:24 AM !-->
 		This content requires HTML5/CSS3, _____, or Adobe Flash Player _______ 9 or higher.
 		 </div>
 		 <script type="text/javascript">
-	
+
 		if (swfobject.hasFlashPlayerVersion("9.0.0")) {
 			var flashvars = {};
 			var params = {};
@@ -121,15 +117,15 @@ Date Downloaded: 12/25/2016 5:43:24 AM !-->
 			attributes.name = "pano";
 			attributes.align = "middle";
 			swfobject.embedSWF(
-				"spalounge_b.swf", "container", 
+				"spalounge_b.swf", "container",
 				"100%", "100%",
-				"9.0.0", "", 
+				"9.0.0", "",
 				flashvars, params, attributes);
-			
-		} else 
+
+		} else
 		// check for CSS3 3D transformations and WebGL
 		if (ggHasHtml5Css3D() || ggHasWebGL()) {
-	
+
 			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
 			// add the skin object
@@ -145,4 +141,3 @@ Date Downloaded: 12/25/2016 5:43:24 AM !-->
 		 </noscript>
 	 </body>
  </html>
- 
